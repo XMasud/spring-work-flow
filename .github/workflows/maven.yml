@@ -50,4 +50,4 @@ jobs:
         context: .
         dockerfile: Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/spring-work-flow:$(date-'%Y-%m-%d%H-%M-%S')
+        tags: ${{ secrets.DOCKER_USERNAME }}/spring-work-flow:latest
